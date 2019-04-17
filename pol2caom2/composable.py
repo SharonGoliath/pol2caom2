@@ -80,13 +80,13 @@ data_visitors = []
 
 
 def run():
-    ec.run_by_file(ec.StorageName, APPLICATION, COLLECTION, None, meta_visitors,
+    ec.run_by_file(PolName, APPLICATION, COLLECTION, None, meta_visitors,
                    data_visitors)
 
 
 def run_proxy():
     proxy = '/usr/src/app/cadcproxy.pem'
-    ec.run_by_file(ec.StorageName, APPLICATION, COLLECTION, proxy,
+    ec.run_by_file(PolName, APPLICATION, COLLECTION, proxy,
                    meta_visitors, data_visitors)
 
 
