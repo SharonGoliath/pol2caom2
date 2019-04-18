@@ -49,5 +49,11 @@ https://github.com/opencadc-metadata-curation/collection2caom2/wiki/config.yml.
    root@53bef30d8af3:/usr/src/app# pol_run
    ```
 
+1. To make pol2caom2 code changes visible inside the container:
+
+   ```
+   root@53bef30d8af3:/usr/src/app# pip install -e ./
+   ```
+
 1. For some instructions that might be helpful on using containers, see:
 https://github.com/opencadc-metadata-curation/collection2caom2/wiki/Docker-and-Collections
