@@ -49,7 +49,7 @@ https://github.com/opencadc-metadata-curation/collection2caom2/wiki/config.yml.
    root@53bef30d8af3:/usr/src/app# pol_run
    ```
 
-1. To make pol2caom2 code changes visible inside the container:
+1. To make pol2caom2 code changes usable inside the container:
 
    ```
    root@53bef30d8af3:/usr/src/app# pip install -e ./
